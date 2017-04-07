@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AFCoverFlowFlowLayout.h
 //  stackingLayout
 //
 //  Created by tangyuhua on 2017/4/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AFCoverFlowFlowLayout : UICollectionViewFlowLayout
 
 @end
-

@@ -9,12 +9,27 @@
 /* Begin PBXBuildFile section */
 		ECB021831E97772600786244 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021821E97772600786244 /* main.m */; };
 		ECB021861E97772600786244 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021851E97772600786244 /* AppDelegate.m */; };
-		ECB021891E97772600786244 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021881E97772600786244 /* ViewController.m */; };
+		ECB021891E97772600786244 /* AFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021881E97772600786244 /* AFViewController.m */; };
 		ECB0218C1E97772600786244 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB0218A1E97772600786244 /* Main.storyboard */; };
 		ECB0218E1E97772600786244 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECB0218D1E97772600786244 /* Assets.xcassets */; };
 		ECB021911E97772600786244 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECB0218F1E97772600786244 /* LaunchScreen.storyboard */; };
 		ECB0219C1E97772600786244 /* stackingLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB0219B1E97772600786244 /* stackingLayoutTests.m */; };
 		ECB021A71E97772600786244 /* stackingLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021A61E97772600786244 /* stackingLayoutUITests.m */; };
+		ECB021C01E977DC200786244 /* AFCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021BF1E977DC200786244 /* AFCollectionViewCell.m */; };
+		ECB021C31E977EB700786244 /* AFCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021C21E977EB700786244 /* AFCollectionViewLayoutAttributes.m */; };
+		ECB021C61E97825B00786244 /* AFCollectionViewStackedLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021C51E97825B00786244 /* AFCollectionViewStackedLayout.m */; };
+		ECB021C91E9786CF00786244 /* AFCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021C81E9786CF00786244 /* AFCollectionViewFlowLayout.m */; };
+		ECB021CC1E97870500786244 /* AFCoverFlowFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021CB1E97870500786244 /* AFCoverFlowFlowLayout.m */; };
+		ECB021CF1E978AE800786244 /* AFCollectionViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021CE1E978AE800786244 /* AFCollectionViewHeaderView.m */; };
+		ECB021D21E978C6900786244 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021D11E978C6900786244 /* AFImageDownloader.m */; };
+		ECB021D51E978C7100786244 /* NSData+AFDecompression.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021D41E978C7100786244 /* NSData+AFDecompression.m */; };
+		ECB021EA1E9799CB00786244 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021D81E9799CB00786244 /* NSData+Base64.m */; };
+		ECB021EB1E9799CB00786244 /* OAuth+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021DA1E9799CB00786244 /* OAuth+Additions.m */; };
+		ECB021EC1E9799CB00786244 /* OAuthCore.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021DC1E9799CB00786244 /* OAuthCore.m */; };
+		ECB021ED1E9799CB00786244 /* PXAPIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021E01E9799CB00786244 /* PXAPIHelper.m */; };
+		ECB021EE1E9799CB00786244 /* PXAPIHelper+Auth.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021E21E9799CB00786244 /* PXAPIHelper+Auth.m */; };
+		ECB021EF1E9799CB00786244 /* PXRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021E41E9799CB00786244 /* PXRequest.m */; };
+		ECB021F01E9799CB00786244 /* PXRequest+Creation.m in Sources */ = {isa = PBXBuildFile; fileRef = ECB021E61E9799CB00786244 /* PXRequest+Creation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +54,8 @@
 		ECB021821E97772600786244 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ECB021841E97772600786244 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ECB021851E97772600786244 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ECB021871E97772600786244 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ECB021881E97772600786244 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECB021871E97772600786244 /* AFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFViewController.h; sourceTree = "<group>"; };
+		ECB021881E97772600786244 /* AFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFViewController.m; sourceTree = "<group>"; };
 		ECB0218B1E97772600786244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ECB0218D1E97772600786244 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ECB021901E97772600786244 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +66,39 @@
 		ECB021A21E97772600786244 /* stackingLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stackingLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECB021A61E97772600786244 /* stackingLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stackingLayoutUITests.m; sourceTree = "<group>"; };
 		ECB021A81E97772600786244 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECB021BD1E977A8C00786244 /* stackingLayout-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "stackingLayout-Prefix.pch"; sourceTree = "<group>"; };
+		ECB021BE1E977DC200786244 /* AFCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCollectionViewCell.h; sourceTree = "<group>"; };
+		ECB021BF1E977DC200786244 /* AFCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCollectionViewCell.m; sourceTree = "<group>"; };
+		ECB021C11E977EB700786244 /* AFCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		ECB021C21E977EB700786244 /* AFCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		ECB021C41E97825B00786244 /* AFCollectionViewStackedLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCollectionViewStackedLayout.h; sourceTree = "<group>"; };
+		ECB021C51E97825B00786244 /* AFCollectionViewStackedLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCollectionViewStackedLayout.m; sourceTree = "<group>"; };
+		ECB021C71E9786CF00786244 /* AFCollectionViewFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		ECB021C81E9786CF00786244 /* AFCollectionViewFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		ECB021CA1E97870500786244 /* AFCoverFlowFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCoverFlowFlowLayout.h; sourceTree = "<group>"; };
+		ECB021CB1E97870500786244 /* AFCoverFlowFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCoverFlowFlowLayout.m; sourceTree = "<group>"; };
+		ECB021CD1E978AE800786244 /* AFCollectionViewHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCollectionViewHeaderView.h; sourceTree = "<group>"; };
+		ECB021CE1E978AE800786244 /* AFCollectionViewHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFCollectionViewHeaderView.m; sourceTree = "<group>"; };
+		ECB021D01E978C6900786244 /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
+		ECB021D11E978C6900786244 /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
+		ECB021D31E978C7100786244 /* NSData+AFDecompression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AFDecompression.h"; sourceTree = "<group>"; };
+		ECB021D41E978C7100786244 /* NSData+AFDecompression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AFDecompression.m"; sourceTree = "<group>"; };
+		ECB021D71E9799CB00786244 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		ECB021D81E9799CB00786244 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		ECB021D91E9799CB00786244 /* OAuth+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OAuth+Additions.h"; sourceTree = "<group>"; };
+		ECB021DA1E9799CB00786244 /* OAuth+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "OAuth+Additions.m"; sourceTree = "<group>"; };
+		ECB021DB1E9799CB00786244 /* OAuthCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OAuthCore.h; sourceTree = "<group>"; };
+		ECB021DC1E9799CB00786244 /* OAuthCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OAuthCore.m; sourceTree = "<group>"; };
+		ECB021DE1E9799CB00786244 /* PXAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXAPI.h; sourceTree = "<group>"; };
+		ECB021DF1E9799CB00786244 /* PXAPIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXAPIHelper.h; sourceTree = "<group>"; };
+		ECB021E01E9799CB00786244 /* PXAPIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXAPIHelper.m; sourceTree = "<group>"; };
+		ECB021E11E9799CB00786244 /* PXAPIHelper+Auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PXAPIHelper+Auth.h"; sourceTree = "<group>"; };
+		ECB021E21E9799CB00786244 /* PXAPIHelper+Auth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PXAPIHelper+Auth.m"; sourceTree = "<group>"; };
+		ECB021E31E9799CB00786244 /* PXRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PXRequest.h; sourceTree = "<group>"; };
+		ECB021E41E9799CB00786244 /* PXRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PXRequest.m; sourceTree = "<group>"; };
+		ECB021E51E9799CB00786244 /* PXRequest+Creation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PXRequest+Creation.h"; sourceTree = "<group>"; };
+		ECB021E61E9799CB00786244 /* PXRequest+Creation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PXRequest+Creation.m"; sourceTree = "<group>"; };
+		ECB021E71E9799CB00786244 /* PXAPI-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PXAPI-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +149,29 @@
 		ECB021801E97772600786244 /* stackingLayout */ = {
 			isa = PBXGroup;
 			children = (
+				ECB021E91E9799CB00786244 /* PXAPI */,
 				ECB021841E97772600786244 /* AppDelegate.h */,
 				ECB021851E97772600786244 /* AppDelegate.m */,
-				ECB021871E97772600786244 /* ViewController.h */,
-				ECB021881E97772600786244 /* ViewController.m */,
+				ECB021871E97772600786244 /* AFViewController.h */,
+				ECB021881E97772600786244 /* AFViewController.m */,
+				ECB021BE1E977DC200786244 /* AFCollectionViewCell.h */,
+				ECB021BF1E977DC200786244 /* AFCollectionViewCell.m */,
+				ECB021C11E977EB700786244 /* AFCollectionViewLayoutAttributes.h */,
+				ECB021C21E977EB700786244 /* AFCollectionViewLayoutAttributes.m */,
+				ECB021C41E97825B00786244 /* AFCollectionViewStackedLayout.h */,
+				ECB021C51E97825B00786244 /* AFCollectionViewStackedLayout.m */,
+				ECB021C71E9786CF00786244 /* AFCollectionViewFlowLayout.h */,
+				ECB021C81E9786CF00786244 /* AFCollectionViewFlowLayout.m */,
+				ECB021CA1E97870500786244 /* AFCoverFlowFlowLayout.h */,
+				ECB021CB1E97870500786244 /* AFCoverFlowFlowLayout.m */,
+				ECB021CD1E978AE800786244 /* AFCollectionViewHeaderView.h */,
+				ECB021CE1E978AE800786244 /* AFCollectionViewHeaderView.m */,
+				ECB021D31E978C7100786244 /* NSData+AFDecompression.h */,
+				ECB021D41E978C7100786244 /* NSData+AFDecompression.m */,
+				ECB021D01E978C6900786244 /* AFImageDownloader.h */,
+				ECB021D11E978C6900786244 /* AFImageDownloader.m */,
 				ECB0218A1E97772600786244 /* Main.storyboard */,
+				ECB021BD1E977A8C00786244 /* stackingLayout-Prefix.pch */,
 				ECB0218D1E97772600786244 /* Assets.xcassets */,
 				ECB0218F1E97772600786244 /* LaunchScreen.storyboard */,
 				ECB021921E97772600786244 /* Info.plist */,
@@ -138,6 +204,46 @@
 				ECB021A81E97772600786244 /* Info.plist */,
 			);
 			path = stackingLayoutUITests;
+			sourceTree = "<group>";
+		};
+		ECB021DD1E9799CB00786244 /* ABOAuthCore */ = {
+			isa = PBXGroup;
+			children = (
+				ECB021D71E9799CB00786244 /* NSData+Base64.h */,
+				ECB021D81E9799CB00786244 /* NSData+Base64.m */,
+				ECB021D91E9799CB00786244 /* OAuth+Additions.h */,
+				ECB021DA1E9799CB00786244 /* OAuth+Additions.m */,
+				ECB021DB1E9799CB00786244 /* OAuthCore.h */,
+				ECB021DC1E9799CB00786244 /* OAuthCore.m */,
+			);
+			path = ABOAuthCore;
+			sourceTree = "<group>";
+		};
+		ECB021E81E9799CB00786244 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECB021E71E9799CB00786244 /* PXAPI-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECB021E91E9799CB00786244 /* PXAPI */ = {
+			isa = PBXGroup;
+			children = (
+				ECB021DD1E9799CB00786244 /* ABOAuthCore */,
+				ECB021DE1E9799CB00786244 /* PXAPI.h */,
+				ECB021DF1E9799CB00786244 /* PXAPIHelper.h */,
+				ECB021E01E9799CB00786244 /* PXAPIHelper.m */,
+				ECB021E11E9799CB00786244 /* PXAPIHelper+Auth.h */,
+				ECB021E21E9799CB00786244 /* PXAPIHelper+Auth.m */,
+				ECB021E31E9799CB00786244 /* PXRequest.h */,
+				ECB021E41E9799CB00786244 /* PXRequest.m */,
+				ECB021E51E9799CB00786244 /* PXRequest+Creation.h */,
+				ECB021E61E9799CB00786244 /* PXRequest+Creation.m */,
+				ECB021E81E9799CB00786244 /* Supporting Files */,
+			);
+			name = PXAPI;
+			path = "../500px-iOS-api/PXAPI";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +382,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECB021891E97772600786244 /* ViewController.m in Sources */,
+				ECB021F01E9799CB00786244 /* PXRequest+Creation.m in Sources */,
+				ECB021891E97772600786244 /* AFViewController.m in Sources */,
 				ECB021861E97772600786244 /* AppDelegate.m in Sources */,
 				ECB021831E97772600786244 /* main.m in Sources */,
+				ECB021EB1E9799CB00786244 /* OAuth+Additions.m in Sources */,
+				ECB021EF1E9799CB00786244 /* PXRequest.m in Sources */,
+				ECB021ED1E9799CB00786244 /* PXAPIHelper.m in Sources */,
+				ECB021EC1E9799CB00786244 /* OAuthCore.m in Sources */,
+				ECB021C91E9786CF00786244 /* AFCollectionViewFlowLayout.m in Sources */,
+				ECB021C01E977DC200786244 /* AFCollectionViewCell.m in Sources */,
+				ECB021EA1E9799CB00786244 /* NSData+Base64.m in Sources */,
+				ECB021D51E978C7100786244 /* NSData+AFDecompression.m in Sources */,
+				ECB021C31E977EB700786244 /* AFCollectionViewLayoutAttributes.m in Sources */,
+				ECB021CC1E97870500786244 /* AFCoverFlowFlowLayout.m in Sources */,
+				ECB021EE1E9799CB00786244 /* PXAPIHelper+Auth.m in Sources */,
+				ECB021D21E978C6900786244 /* AFImageDownloader.m in Sources */,
+				ECB021CF1E978AE800786244 /* AFCollectionViewHeaderView.m in Sources */,
+				ECB021C61E97825B00786244 /* AFCollectionViewStackedLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,10 +547,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4BADWEEE97;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/stackingLayout-Prefix.pch";
 				INFOPLIST_FILE = stackingLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangyuhua.com.stackingLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/500px-iOS-api/PXAPI/**";
 			};
 			name = Debug;
 		};
@@ -438,10 +562,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4BADWEEE97;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/stackingLayout-Prefix.pch";
 				INFOPLIST_FILE = stackingLayout/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tangyuhua.com.stackingLayout;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/500px-iOS-api/PXAPI/**";
 			};
 			name = Release;
 		};
@@ -514,6 +641,7 @@
 				ECB021AD1E97772600786244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECB021AE1E97772600786244 /* Build configuration list for PBXNativeTarget "stackingLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +650,7 @@
 				ECB021B01E97772600786244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ECB021B11E97772600786244 /* Build configuration list for PBXNativeTarget "stackingLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +659,7 @@
 				ECB021B31E97772600786244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

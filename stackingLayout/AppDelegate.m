@@ -8,6 +8,9 @@
 
 #import "AppDelegate.h"
 
+
+static NSString *consumerkey = @"7Ojp9z9yyuFXAnJr0ubPEANuvSQCwEZdwy90aJyR";
+static NSString *consumerSecret = @"26vuOd12ITYLpIEzl1tpe2eDZAGDp0GzkodguCXr";
 @interface AppDelegate ()
 
 @end
@@ -17,6 +20,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [PXRequest setConsumerKey:consumerkey consumerSecret:consumerSecret];
     return YES;
 }
 
